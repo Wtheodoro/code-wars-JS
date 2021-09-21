@@ -16,5 +16,3 @@ function descendingOrder(n){
 }
 
 console.log(descendingOrder(145263))
-
-// [a, b, c] = [a, b, c].sort((x,y) => x - y)
