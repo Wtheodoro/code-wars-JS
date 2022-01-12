@@ -9,9 +9,6 @@
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
 const arrayDiff = (a, b) => {
-  if (!a.length) return a
-  if (!b.length) return a
-  
   return a.filter(x => !b.includes(x))
 }
 
